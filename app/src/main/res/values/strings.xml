@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Story App</string>
+    <string name="error_network_fail">Looks like your are offline</string>
+    <string name="data_is_empty">Data is Empty</string>
+    <string name="description">Description</string>
+    <string name="lorem_ipsum">Lorem Ipsum Dor Si Amet Ipsum Dor Si Amet</string>
+    <string name="detail_image">Detail Image</string>
+    <string name="upload">Upload</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="upload_photo_field">upload photo field</string>
+    <string name="add_some_photo">Add some photo</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="add_your_caption">Add your caption</string>
+    <string name="or">OR</string>
+    <string name="take_a_photo" >Take a Photo</string>
+    <string name="switch_camera">Switch Camera</string>
+    <string name="image_login_people">Image login people</string>
+    <string name="image_registration_people">Image registration people</string>
+    <string name="story_image">story image</string>
+    <string name="get_location">View Location</string>
+    <string name="try_again">Try again</string>
+    <string name="active_your_location">Activated your location</string>
+</resources>

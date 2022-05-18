@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Story App</string>
+    <string name="error_network_fail">Sepertinya Anda sedang offline</string>
+    <string name="data_is_empty">Data kosong</string>
+    <string name="description">Deskripsi</string>
+    <string name="lorem_ipsum">Lorem Ipsum Dor Si Amet Ipsum Dor Si Amet</string>
+    <string name="detail_image">Gambar Detail</string>
+    <string name="upload">Upload</string>
+    <string name="register">Registrasi</string>
+    <string name="login">Login</string>
+    <string name="enter_your_name">Masukkan nama Anda</string>
+    <string name="enter_your_email">Masukkan email Anda</string>
+    <string name="upload_photo_field">tempat unggah foto</string>
+    <string name="add_some_photo">Tambahkan beberapa gambar</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="add_your_caption">Tambahkan caption</string>
+    <string name="or">Atau</string>
+    <string name="take_a_photo">Ambil gambar</string>
+    <string name="switch_camera">Putar Kamera</string>
+    <string name="image_login_people">gambar orang login</string>
+    <string name="image_registration_people">gambar orang registrasi</string>
+    <string name="story_image">gambar story</string>
+    <string name="get_location">Lihat Lokasi</string>
+    <string name="try_again">Coba lagi</string>
+    <string name="active_your_location">Aktifkan lokasi anda</string>
+
+</resources>
