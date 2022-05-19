@@ -36,7 +36,7 @@ class RegisterFragment : Fragment(R.layout.fragment_register) {
             val name = binding.myName.text.toString()
             val email = binding.myEmail.text.toString()
             val password = binding.myPassword.text.toString()
-            if (nameIsValid(name) && emailIsValid(email) && passwordIsValid(password.length)) {
+            if (nameIsValid(name) && binding.myBtnRegister.validateEmailPassword(email, password)) {
                 showLoading(true)
                 viewModel.register(name, email, password)
             }
@@ -73,31 +73,6 @@ class RegisterFragment : Fragment(R.layout.fragment_register) {
 
 
     private fun nameIsValid(name: String): Boolean = (name.isNotEmpty())
-
-    private fun emailIsValid(etMail: String): Boolean =
-        when {
-            etMail.isNotEmpty() && Patterns.EMAIL_ADDRESS.matcher(etMail)
-                .matches()
-            ->
-                true
-            else -> {
-                Toast.makeText(context, "Enter valid Email address !", Toast.LENGTH_SHORT).show()
-                false
-            }
-        }
-
-    private fun passwordIsValid(passwordLength: Int): Boolean =
-        when {
-            passwordLength > 6 -> true
-            passwordLength == 0 -> {
-                Toast.makeText(context, "Password Is Empty !", Toast.LENGTH_SHORT).show()
-                false
-            }
-            else -> {
-                Toast.makeText(context, "Enter Valid Password !", Toast.LENGTH_SHORT).show()
-                false
-            }
-        }
 
     private fun playAnimation() {
         ObjectAnimator.ofFloat(binding.imageAnimRegister, View.ROTATION, 2f, -2f).apply {

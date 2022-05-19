@@ -63,7 +63,7 @@ class MyButton : AppCompatButton {
 
     private fun passwordIsValid(passwordLength: Int): Boolean =
         when {
-            passwordLength > 6 -> true
+            passwordLength >= 6 -> true
             passwordLength == 0 -> {
                 Toast.makeText(context, "Password Is Empty !", Toast.LENGTH_SHORT).show()
                 false
